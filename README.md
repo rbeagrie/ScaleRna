@@ -50,7 +50,7 @@ aws s3 sync s3://scale.pub/testData/rna/GRCh38_chr1_genome GRCh38_chr1_genome --
 ```
 and then run with
 ```
-nextflow run /PATH/TO/ScaleRna/ -profile PROFILE --samples /PATH/TO/ScaleRna/docs/examples/samples.csv --genome GRCh38_chr1_genome/grch38.chr1.json --fastqDir fastqs --outDir /PATH/TO/OUTPUT_DIR
+nextflow run /PATH/TO/ScaleRna/ -profile PROFILE --samples /PATH/TO/ScaleRna/docs/examples/samples.csv --genome GRCh38_chr1_genome/grch38.chr1.json --fastqDir fastqs --outDir /PATH/TO/OUTPUT_DIR --libStructure libV1.json
 ```
 
 Note that this test run is merely a quick and easy way to verify that the pipeline executes properly and does not represent a real assay.
